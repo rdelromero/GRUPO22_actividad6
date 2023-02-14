@@ -71,7 +71,7 @@ public class Instituto {
 		return listaportipo;
 	}
 	
-	//Método buscarPersonaPorTipo() pasando la clase como parámetro y usando isInstance
+	//Método buscarPersonaPorTipo() pasando String como parámetro y sin usar isInstance
 	public List<Persona> buscarPersonaPorTipoAlt(String tipoPersona) {
 		List<Persona> listaportipo=new ArrayList<>();
 		for (int i=0;i<comunidad.size();i++) {
