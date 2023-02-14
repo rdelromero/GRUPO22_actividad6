@@ -60,7 +60,7 @@ public class Instituto {
 		return booleano;
 	}
 	
-	//Método buscarPersonaPorTipo() pasando la clase como parámetro y usando isInstance
+	//Método buscarPersonaPorTipo() pasando como parámetro una clase y usando isInstance
 	public List<Persona> buscarPersonaPorTipo(Class tipoPersona) {
 		List<Persona> listaportipo=new ArrayList<>();
 		for (Persona persona: comunidad) {
@@ -71,7 +71,7 @@ public class Instituto {
 		return listaportipo;
 	}
 	
-	//Método buscarPersonaPorTipo() pasando String como parámetro y sin usar isInstance
+	//Método buscarPersonaPorTipo() pasando como parametro un String y sin usar isInstance
 	public List<Persona> buscarPersonaPorTipoAlt(String tipoPersona) {
 		List<Persona> listaportipo=new ArrayList<>();
 		for (int i=0;i<comunidad.size();i++) {
